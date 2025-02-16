@@ -16,6 +16,27 @@ This project enables real-time synchronization between ambulance teams and ER do
 
 ---
 
+# 🚑 Medical Report Generation System
+
+## 🏗️ Architecture Overview
+
+![System Architecture](images/Architecture.png)
+
+### 🔹 How It Works
+
+1️⃣ **Voice Discussion**: The system captures conversations (e.g., between medical staff).  
+2️⃣ **Transcription**: Converts speech into text using an AI-based transcription tool.  
+3️⃣ **Summarization & Information Extraction**: Extracts key medical details.  
+4️⃣ **Semantic Search in Knowledge Base**: Retrieves relevant documents for context.  
+5️⃣ **Report Generation Request**: Creates structured patient reports based on retrieved data.  
+6️⃣ **Patient Report Generation**: Produces a final report for emergency or medical use.
+
+Additionally, the system processes PDFs using:
+
+- **Parsing**: Extracting text from medical documents.
+- **Chunking**: Splitting text into meaningful segments.
+- **Embedding**: Storing text as vectors for advanced search capabilities.
+
 ## 🛠️ Technologies Used
 
 - **Programming Language**: Python 🐍
@@ -120,8 +141,6 @@ python utils/Summarizer.py "Patient is experiencing chest pain and difficulty br
 
 ## 🤝 Contributing
 
-We welcome contributions!
-
-1. Fork the repository.
-2. Create a new branch.
-3. Submit a pull request (PR).
+1️⃣ **🍴 Fork the repository** – Click the fork button to create a copy in your GitHub account.  
+2️⃣ **🌱 Create a new branch** – Work on your improvements in an isolated branch.  
+3️⃣ **📩 Submit a Pull Request (PR)** – Open a PR to propose your changes for review.
