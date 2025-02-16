@@ -57,12 +57,12 @@ Ambulance-ER-Near-real-time-Synchronization/
 │ ├── requirements.txt # Dependencies
 │ ├── app.py # Main Streamlit application
 │ └── assets/
-│ └── styles.css # CSS for web interface
+│   └── styles.css # CSS for web interface
 └── utils/
-├── Generator.py # Generates global patient reports & recommendations
-├── Processor.py # Processes transcribed text for analysis
-├── Summarizer.py # Summarizes patient condition & emergency level
-└── Transcripter.py # Converts audio to text using Whisper
+    ├── Generator.py # Generates global patient reports & recommendations
+    ├── Processor.py # Processes transcribed text for analysis
+    ├── Summarizer.py # Summarizes patient condition & emergency level
+    └── Transcripter.py # Converts audio to text using Whisper
 
 ```
 
