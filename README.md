@@ -16,8 +16,6 @@ This project enables real-time synchronization between ambulance teams and ER do
 
 ---
 
-# 🚑 Medical Report Generation System
-
 ## 🏗️ Architecture Overview
 
 ![System Architecture](images/Architecture.png)
@@ -31,7 +29,7 @@ This project enables real-time synchronization between ambulance teams and ER do
 5️⃣ **Report Generation Request**: Creates structured patient reports based on retrieved data.  
 6️⃣ **Patient Report Generation**: Produces a final report for emergency or medical use.
 
-Additionally, the system processes PDFs using:
+➕ Additionally, the system processes PDFs using:
 
 - **Parsing**: Extracting text from medical documents.
 - **Chunking**: Splitting text into meaningful segments.
