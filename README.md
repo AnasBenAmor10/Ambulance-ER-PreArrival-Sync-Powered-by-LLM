@@ -18,7 +18,11 @@ This project enables real-time synchronization between ambulance teams and ER do
 
 ## 🏗️ Architecture Overview
 
-![System Architecture](images/Architecture.png)
+<picture>
+     <source media="(prefers-color-scheme: dark)" srcset="images/Architecture-dark.png">
+     <source media="(prefers-color-scheme: light)" srcset="images/Architecture-light.png">
+     <img alt="Architecture" src="images/Architecture-light.png">
+</picture>
 
 ### 🔹 How It Works
 
